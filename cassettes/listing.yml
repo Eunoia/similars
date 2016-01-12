@@ -1,0 +1,311 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.airbnb.com/api/v1/listings/4693285?key=d306zoyjsyarp7ifhu67rjxn52tv0t20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML,
+        like Gecko) Version/7.0.3 Safari/7046A194A
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.7.12
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      Content-Security-Policy:
+      - 'default-src ''self'' https:; connect-src ''self'' https: http:; font-src
+        ''self'' https:; frame-src *; img-src ''self'' https: http: data:; media-src
+        ''self'' https:; object-src ''self'' https:; script-src ''self'' https: ''unsafe-eval''
+        ''unsafe-inline'' http:; style-src ''self'' https: ''unsafe-inline'' http:;
+        report-uri /tracking/csp?action=show&controller=listings&req_uuid=8933a871-3f21-4a52-9aa7-d7ef013a2e0f&version=160bfd6cc7a7b9904ea70bf555a943405e5c0305;'
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Etag:
+      - W/"7931f4e99fbec03431495a9551a4f7a7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubdomains
+      X-Hi-Human:
+      - The Production Infrastructure team added this header. Come work with us! Email
+        kevin.rice+hiring@airbnb.com
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Tue, 12 Jan 2016 19:22:24 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+      Set-Cookie:
+      - mdr_browser=desktop; expires=Tue, 12-Jan-2016 21:22:24 GMT; path=/; domain=.airbnb.com
+      Akamai-Country:
+      - US
+    body:
+      encoding: UTF-8
+      string: '{"metadata":{},"listing":{"city":"Berkeley","collection_ids":null,"country":"United
+        States","has_double_blind_reviews":false,"id":4693285,"instant_bookable":false,"lat":37.89677155862625,"lng":-122.28367356021487,"medium_url":"https://a0.muscache.com/im/pictures/79987936/90d2f5a7_original.jpg?aki_policy=medium","name":"Tranquil
+        Guesthouse Retreat","native_currency":"USD","picture_url":"https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","price":105,"price_formatted":"$105","price_native":105,"smart_location":"Berkeley,
+        CA","thumbnail_url":"https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","user":{"user":{"about":"From
+        the U.S. I have traveled to many countries and lived abroad.  I like to walk
+        and explore, trying the local food and drink of new places. I have two almost
+        grown children and sing jazz for fun.  I enjoy art galleries and museums,
+        hearing live music, hiking in nature.  \r\n\r\nAs a host, I like to learn
+        a bit about my guests and share what is special about the area.  I have lived
+        in Berkeley for many years and enjoy sharing the city''s wonderful offerings
+        and natural beauty of the environs with others.  I offer as much privacy as
+        you wish to have and want my guests to be as comfortable as possible.  I am
+        glad to offer suggestions for my favorite sites, restaurants, shops in Berkeley
+        and the San Francisco Bay Area.\r\n\r\nAs a guest, I am neat and treat others''
+        spaces respectfully and with care.  I am responsible and quiet.  I appreciate
+        insights from locals.","first_name":"Denise","has_profile_pic":true,"id":6127976,"identity_verified":true,"is_superhost":true,"picture_url":"https://a1.muscache.com/ac/users/6127976/profile_pic/1417216211/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70","reviewee_count":59,"thumbnail_url":"https://a1.muscache.com/ac/users/6127976/profile_pic/1417216211/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=50:*&output-format=jpg&output-quality=70"}},"user_id":6127976,"xl_picture_url":"https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","address":"Vincente
+        Avenue, Berkeley, CA 94707, United States","bathrooms":1.0,"bedrooms":1,"beds":1,"cancellation_policy":"moderate","country_code":"US","has_availability":true,"listing_native_currency":"USD","market":"East
+        Bay, CA","min_nights":2,"neighborhood":"Thousand Oaks","person_capacity":2,"picture_count":30,"picture_urls":["https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985826/fc210706_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985763/b0ef2dba_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985890/a63ee435_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/103252702/b8dea9bb_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79850452/53c0bfc6_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79806841/bac431f9_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79988096/5fa86a41_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79988285/2d55e225_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79987774/c24d722c_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79985597/a7a08713_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79985436/62abe77f_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985333/2f43f4a2_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79985526/aef940a4_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79988023/6b5aa756_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/66517821/491dc598_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79984761/3ba0ed7e_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79984978/b39df7eb_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/64570813/3a2c04a0_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985163/49766453_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/75737708/7fbc864e_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/58932565/b3462af4_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62975662/4faec704_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/61961855/8d5ff487_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62737952/9b8b5155_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/62731308/9d157ebb_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/62737017/7da919f1_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62732797/1631bca7_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79987843/859ec9c0_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/58942354/59c41fac_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70"],"property_type":"House","reviews_count":58,"room_type":"Entire
+        home/apt","room_type_category":"entire_home","special_offer":null,"state":"CA","thumbnail_urls":["https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985826/fc210706_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985763/b0ef2dba_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985890/a63ee435_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/103252702/b8dea9bb_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79850452/53c0bfc6_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79806841/bac431f9_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79988096/5fa86a41_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79988285/2d55e225_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79987774/c24d722c_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79985597/a7a08713_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79985436/62abe77f_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985333/2f43f4a2_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79985526/aef940a4_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79988023/6b5aa756_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/66517821/491dc598_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79984761/3ba0ed7e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79984978/b39df7eb_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/64570813/3a2c04a0_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985163/49766453_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/75737708/7fbc864e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/58932565/b3462af4_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62975662/4faec704_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/61961855/8d5ff487_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62737952/9b8b5155_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/62731308/9d157ebb_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/62737017/7da919f1_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62732797/1631bca7_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79987843/859ec9c0_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/58942354/59c41fac_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"],"xl_picture_urls":["https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985826/fc210706_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985763/b0ef2dba_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985890/a63ee435_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/103252702/b8dea9bb_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79850452/53c0bfc6_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79806841/bac431f9_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79988096/5fa86a41_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79988285/2d55e225_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79987774/c24d722c_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79985597/a7a08713_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/79985436/62abe77f_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985333/2f43f4a2_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79985526/aef940a4_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79988023/6b5aa756_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/66517821/491dc598_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79984761/3ba0ed7e_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79984978/b39df7eb_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/64570813/3a2c04a0_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/79985163/49766453_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/75737708/7fbc864e_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/58932565/b3462af4_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62975662/4faec704_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/61961855/8d5ff487_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62737952/9b8b5155_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a1.muscache.com/ac/pictures/62731308/9d157ebb_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/62737017/7da919f1_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/62732797/1631bca7_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a0.muscache.com/ac/pictures/79987843/859ec9c0_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70","https://a2.muscache.com/ac/pictures/58942354/59c41fac_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70"],"zipcode":"94707","bed_type":"Real
+        Bed","bed_type_category":"real_bed","currency_symbol_left":"$","force_mobile_legal_modal":false,"require_guest_profile_picture":false,"access":"Street
+        parking spot in front of house or in driveway. The studio has a separate entrance
+        from the house 14 steps down from street-level. If you have difficulty walking
+        up or down stairs, this may not be the place for you.  Guests have convenient
+        access to washer, dryer, iron.  If you have a special request, please just
+        ask, and we will try to accommodate you.  Garden is available to sit in with
+        patio table and chairs, but please no smoking.\n\nIf you are unable to arrive
+        during normal check-in hours, please request in advance.  Guests arriving
+        between 9 pm-12 midnight will incur a $25 late arrival fee.\n\nNo guest mail
+        is accepted at the studio.  If you need to receive mail, please send it to
+        The UPS Store, 1563 Solano Avenue, Box 99, Berkeley, CA 94707.  Telephone:
+        (PHONE NUMBER HIDDEN) for a $5 charge.  UPS will hold mail for 3 days and
+        release to recipient with a government-issued photo i.d. (driver''s license
+        or passport).","amenities":["TV","Cable TV","Wireless Internet","Kitchen","Free
+        Parking on Premises","Heating","Family/Kid Friendly","Washer","Dryer","Smoke
+        Detector","Carbon Monoxide Detector","First Aid Kit","Fire Extinguisher","Essentials","Shampoo","Hangers","Hair
+        Dryer","Iron","Laptop Friendly Workspace"],"amenities_ids":[1,2,4,8,9,30,31,33,34,35,36,37,39,40,41,44,45,46,47],"calendar_updated_at":"today","cancel_policy":4,"cancel_policy_short_str":"Moderate","check_in_time":16,"check_out_time":11,"cleaning_fee_native":35,"currency_symbol_right":null,"description":"Clean,
+        peaceful, remodeled 340 sq ft studio perfect for two. City amenities in safe,
+        oak-tree setting.  Premium Simmons Beautyrest queen bed. Kitchenette, parking,
+        Wifi, laundry, tea, coffee, garden. 10 minutes to UC Berkeley, walk to cafes,
+        buses.\n\nPrime, pretty lower hills location in Thousand Oaks/Northbrae neighborhood
+        10 minutes drive from UC Berkeley.  Quiet, residential neighborhood within
+        minutes by foot from Solano Avenue''s great restaurants and shops. Walkability
+        score of 79 (very walkable).  Private separate entrance to back studio from
+        main house.  Garden patio access with beautiful oak trees.  \n\nKitchenette
+        includes full refrigerator, microwave/convection oven, toaster, portable induction
+        2-burner cooktop, sink and dishwasher.  Coffeemaker + Peet''s coffee & tea
+        selection, instant oatmeal. HDTV & 2000 movie, sports streaming options via
+        Roku 3.  Plush spa towels, body wash, shampoo, conditioner, hairdryer. Washer
+        & dryer on site.  Wireless internet.  Easy street parking.\n\nNo pets, so
+        free of animal dander. \n\nLovely, clean, safe, residential area near local
+        commercial street Solano Avenue, a treasure trove of wonderful casual and
+        upscale restaurants (Tapas, Thai, Mediterranean, pizza, Japanese, Indian,
+        Barney''s-a popular burger place, bagels) and Peet''s and Starbucks coffee,
+        wine bar, an upscale grocery store and Safeway, banks, movie theater, gyms,
+        nail & day spas, copying places, post office.\n\nLocal buses to U.C. Berkeley
+        campus (10 minutes by car) and direct San Francisco bus and local buses within
+        a block of house.  In between North Berkeley and El Cerrito Plaza BART (commuter
+        rail) stations about 15 minutes walk to either.  Close to beautiful hilly
+        bicycle routes, hiking on stair pathways and in Tilden Park (golf course,
+        Botanical garden, Lake Anza, Merry-go-Round).  About 30 minute drive (depending
+        on traffic) to San Francisco.\n\nUpcoming  2015 local events/festivals:\n\nGlobal
+        Alliance for Arts & Health October 20-22\nGolden Gate Half Marathon November
+        8\nMen''s Health Urbanathon November 22\n\nStreet parking spot in front of
+        house or in driveway. The studio has a separate entrance from the house 14
+        steps down from street-level. If you have difficulty walking up or down stairs,
+        this may not be the place for you.  Guests have convenient access to washer,
+        dryer, iron.  If you have a special request, please just ask, and we will
+        try to accommodate you.  Garden is available to sit in with patio table and
+        chairs, but please no smoking.\n\nIf you are unable to arrive during normal
+        check-in hours, please request in advance.  Guests arriving between 9 pm-12
+        midnight will incur a $25 late arrival fee.\n\nNo guest mail is accepted at
+        the studio.  If you need to receive mail, please send it to The UPS Store,
+        1563 Solano Avenue, Box 99, Berkeley, CA 94707.  Telephone: (PHONE NUMBER
+        HIDDEN) for a $5 charge.  UPS will hold mail for 3 days and release to recipient
+        with a government-issued photo i.d. (driver''s license or passport).\n\nI
+        would like to learn about the nature of your visit, so I may make your stay
+        as pleasant as possible.  I will personally greet you and orient you to the
+        studio.  I am happy to help with guidance around town locally or farther afield
+        and enjoy sharing favorite local spots.  Beyond that, feel free to text or
+        call me with specific questions or needs.  I have traveled extensively around
+        the world and would like to share the same kindness and respect others have
+        offered me with my guests.  I want your stay to be as enjoyable and relaxing
+        as possible and hope to share a bit of what I love about Berkeley and the
+        Bay Area with you during your stay.\n\nPretty, very safe, walkable, residential
+        neighborhood near Solano Avenue''s many gourmet restaurants, cafes, movie
+        theaters, shops.  Bookstores, hiking, biking, gyms, spas all nearby.  Close
+        to UC Berkeley campus.\n\nSOLANO AVENUE\nGroceries:\nAndronico''s--upscale
+        market with fresh produce, wine shop, deli & prepared foods, sundries.\nSafeway--everyday
+        grocery store\n\nRestaurants & Cafes:\nZachary''s Pizza\nCactus Tacqueria,
+        excellent casual Mexican.\nRivoli California-Mediterranean romantic restaurant.
+        Excellent food, service\nLittle Star Pizza\nBarney''s Gourmet Hamburgers\nKirin
+        upscale Chinese\nCugini Italian\nAjanta upscale Indian cuisine\nNoah''s Bagels\nPeet''s
+        Coffee\nStarbucks\nSolano Yogurt & Ice Cream\nSolano Cellars Wine Shop\nPegasus
+        Bookstore\nPharmaca natural drugstore\nCVS Drugstore\n\nThere are many local
+        amenities a 5-minute walk away. There is a bus a couple of blocks away to
+        downtown Berkeley & express bus to SF, one a block away to BART.  It is easiest
+        to get around by car if you plan to travel farther afield.  I provide reference
+        maps.  (URL HIDDEN) is a good resource for mapping by local public transit.  (URL
+        HIDDEN) is an alternative to a taxi service that is often less expensive.\n\nWall-mounted
+        heater, fan/ionizer, and 26\" HDTV (indoor antenna that picks up hundreds
+        of channels) and can stream 2000 free & paid movies, sports via your Netflix,
+        Amazon Prime, Hulu, Pandora account using Roku 3.  I continue to upgrade details
+        of the space and garden.","description_locale":"en","experiences_offered":"none","extra_user_info":null,"extras_price_native":35,"guests_included":1,"has_agreed_to_legal_terms":true,"has_viewed_cleaning":null,"has_viewed_ib_perf_dashboard_panel":null,"has_viewed_terms":true,"house_rules":"Please
+        no loud noise after 10 pm or before 8 am (including using washer/dryer). Strict
+        no smoking or drugs policy.  No pets allowed.  Guests must be pre-approved
+        and full name provided.  \n\nPlease respect tranquility of neighborhood and
+        keep voices low if arriving late.  Park directly in front of house (room for
+        two vehicles to park).  Do NOT park in front of wood house to right of mine).  Thank
+        you.","instant_book_welcome_message":null,"interaction":"I would like to learn
+        about the nature of your visit, so I may make your stay as pleasant as possible.  I
+        will personally greet you and orient you to the studio.  I am happy to help
+        with guidance around town locally or farther afield and enjoy sharing favorite
+        local spots.  Beyond that, feel free to text or call me with specific questions
+        or needs.  I have traveled extensively around the world and would like to
+        share the same kindness and respect others have offered me with my guests.  I
+        want your stay to be as enjoyable and relaxing as possible and hope to share
+        a bit of what I love about Berkeley and the Bay Area with you during your
+        stay.","is_location_exact":true,"jurisdiction_names":null,"jurisdiction_rollout_names":null,"language":"en","license":null,"listing_cleaning_fee_native":35,"listing_monthly_price_native":null,"listing_price_for_extra_person_native":10,"listing_security_deposit_native":250,"listing_weekend_price_native":null,"listing_weekly_price_native":640,"locale":"en","map_image_url":"https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&markers=37.89677155862625%2C-122.28367356021487&size=480x320&zoom=15&client=gme-airbnbinc&channel=monorail-prod&signature=eI_-aJvk6fsAx2DIbXK5ll5TePY%3D","max_nights":1125,"max_nights_input_value":1125,"min_nights_input_value":2,"monthly_price_factor":1.0,"monthly_price_native":null,"neighborhood_overview":"Pretty,
+        very safe, walkable, residential neighborhood near Solano Avenue''s many gourmet
+        restaurants, cafes, movie theaters, shops.  Bookstores, hiking, biking, gyms,
+        spas all nearby.  Close to UC Berkeley campus.\n\nSOLANO AVENUE\nGroceries:\nAndronico''s--upscale
+        market with fresh produce, wine shop, deli & prepared foods, sundries.\nSafeway--everyday
+        grocery store\n\nRestaurants & Cafes:\nZachary''s Pizza\nCactus Tacqueria,
+        excellent casual Mexican.\nRivoli California-Mediterranean romantic restaurant.
+        Excellent food, service\nLittle Star Pizza\nBarney''s Gourmet Hamburgers\nKirin
+        upscale Chinese\nCugini Italian\nAjanta upscale Indian cuisine\nNoah''s Bagels\nPeet''s
+        Coffee\nStarbucks\nSolano Yogurt & Ice Cream\nSolano Cellars Wine Shop\nPegasus
+        Bookstore\nPharmaca natural drugstore\nCVS Drugstore","notes":"Wall-mounted
+        heater, fan/ionizer, and 26\" HDTV (indoor antenna that picks up hundreds
+        of channels) and can stream 2000 free & paid movies, sports via your Netflix,
+        Amazon Prime, Hulu, Pandora account using Roku 3.  I continue to upgrade details
+        of the space and garden.","photos":[{"id":35159260,"picture":"https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":1,"caption":"Natural
+        light streams through French doors to garden.","thumbnail":"https://a0.muscache.com/ac/pictures/79987936/90d2f5a7_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79987936/90d2f5a7_original.jpg?aki_policy=x_large"},{"id":35159261,"picture":"https://a1.muscache.com/ac/pictures/79985826/fc210706_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":2,"caption":"Beautiful
+        contemporary furnishings, original artwork & natural jute rug.","thumbnail":"https://a1.muscache.com/ac/pictures/79985826/fc210706_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/79985826/fc210706_original.jpg?aki_policy=x_large"},{"id":35159262,"picture":"https://a1.muscache.com/ac/pictures/79985763/b0ef2dba_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":3,"caption":"Sit
+        & relax with a cup of tea or take-out food from one of the many local restaurants.","thumbnail":"https://a1.muscache.com/ac/pictures/79985763/b0ef2dba_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/79985763/b0ef2dba_original.jpg?aki_policy=x_large"},{"id":35159263,"picture":"https://a1.muscache.com/ac/pictures/79985890/a63ee435_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":4,"caption":"Simmons
+        Beautyrest queen bed (see other picture) with comfy, premium bedding, 100%
+        cotton high thread-count sheets, hypoallergenic comforter.  Ample closet space.","thumbnail":"https://a1.muscache.com/ac/pictures/79985890/a63ee435_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/79985890/a63ee435_original.jpg?aki_policy=x_large"},{"id":79172572,"picture":"https://a1.muscache.com/ac/pictures/103252702/b8dea9bb_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":5,"caption":"Tufted
+        headboard & comfortable queen Simmons Beautyrest bed with 3\"gel pad.","thumbnail":"https://a1.muscache.com/ac/pictures/103252702/b8dea9bb_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/103252702/b8dea9bb_original.jpg?aki_policy=x_large"},{"id":35159265,"picture":"https://a1.muscache.com/ac/pictures/79850452/53c0bfc6_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":6,"caption":"Sink,
+        dishwasher, dishes, glasses, utensils provided.","thumbnail":"https://a1.muscache.com/ac/pictures/79850452/53c0bfc6_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/79850452/53c0bfc6_original.jpg?aki_policy=x_large"},{"id":35159264,"picture":"https://a0.muscache.com/ac/pictures/79806841/bac431f9_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":7,"caption":"Granite
+        countertops, birch cabinets, dishwasher, Duralit toaster, microwave, coffeemaker.
+        Double induction portable cooktop available.","thumbnail":"https://a0.muscache.com/ac/pictures/79806841/bac431f9_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79806841/bac431f9_original.jpg?aki_policy=x_large"},{"id":35159268,"picture":"https://a0.muscache.com/ac/pictures/79988096/5fa86a41_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":8,"caption":"Full-sized
+        refrigerator, rich cherry hardwood floors.","thumbnail":"https://a0.muscache.com/ac/pictures/79988096/5fa86a41_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79988096/5fa86a41_original.jpg?aki_policy=x_large"},{"id":35159269,"picture":"https://a2.muscache.com/ac/pictures/79988285/2d55e225_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":9,"caption":"Complimentary
+        bottled water, coffee and tea.  toaster & two-burner induction cooktop available.","thumbnail":"https://a2.muscache.com/ac/pictures/79988285/2d55e225_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a2.muscache.com/im/pictures/79988285/2d55e225_original.jpg?aki_policy=x_large"},{"id":35159266,"picture":"https://a2.muscache.com/ac/pictures/79987774/c24d722c_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":10,"caption":"Curl
+        up with cozy blankets for HDTV viewing (Roku 3 streaming) in bed.","thumbnail":"https://a2.muscache.com/ac/pictures/79987774/c24d722c_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a2.muscache.com/im/pictures/79987774/c24d722c_original.jpg?aki_policy=x_large"},{"id":35159267,"picture":"https://a0.muscache.com/ac/pictures/79985597/a7a08713_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":11,"caption":"Desk
+        and reading light for your laptop or to write a postcard.","thumbnail":"https://a0.muscache.com/ac/pictures/79985597/a7a08713_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79985597/a7a08713_original.jpg?aki_policy=x_large"},{"id":35159270,"picture":"https://a2.muscache.com/ac/pictures/79985436/62abe77f_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":12,"caption":"Luxuriate
+        in the gorgeous tiled, glass-enclosed bathtub and full-sized shower.","thumbnail":"https://a2.muscache.com/ac/pictures/79985436/62abe77f_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a2.muscache.com/im/pictures/79985436/62abe77f_original.jpg?aki_policy=x_large"},{"id":35159271,"picture":"https://a1.muscache.com/ac/pictures/79985333/2f43f4a2_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":13,"caption":"Contemporary
+        fixtures, tile floor in private bathroom.","thumbnail":"https://a1.muscache.com/ac/pictures/79985333/2f43f4a2_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/79985333/2f43f4a2_original.jpg?aki_policy=x_large"},{"id":35159272,"picture":"https://a0.muscache.com/ac/pictures/79985526/aef940a4_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":14,"caption":"Thick,
+        plush 100% cotton spa-quality towels and Toto toilet.","thumbnail":"https://a0.muscache.com/ac/pictures/79985526/aef940a4_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79985526/aef940a4_original.jpg?aki_policy=x_large"},{"id":35159273,"picture":"https://a0.muscache.com/ac/pictures/79988023/6b5aa756_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":15,"caption":"Washer
+        & dryer conveniently available in the house.","thumbnail":"https://a0.muscache.com/ac/pictures/79988023/6b5aa756_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79988023/6b5aa756_original.jpg?aki_policy=x_large"},{"id":35159274,"picture":"https://a0.muscache.com/ac/pictures/66517821/491dc598_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":16,"caption":"Wall-mounted
+        heater with thermostat, flat-screen HDTV with 2000 streaming movie, sports
+        options via Roku 3, original artwork throughout.","thumbnail":"https://a0.muscache.com/ac/pictures/66517821/491dc598_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/66517821/491dc598_original.jpg?aki_policy=x_large"},{"id":35159275,"picture":"https://a0.muscache.com/ac/pictures/79984761/3ba0ed7e_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":17,"caption":"Entrance
+        to studio and back garden.","thumbnail":"https://a0.muscache.com/ac/pictures/79984761/3ba0ed7e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79984761/3ba0ed7e_original.jpg?aki_policy=x_large"},{"id":35159276,"picture":"https://a0.muscache.com/ac/pictures/79984978/b39df7eb_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":18,"caption":"Oaks
+        line gravel pathway to studio entrance.","thumbnail":"https://a0.muscache.com/ac/pictures/79984978/b39df7eb_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79984978/b39df7eb_original.jpg?aki_policy=x_large"},{"id":35159277,"picture":"https://a1.muscache.com/ac/pictures/64570813/3a2c04a0_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":19,"caption":"View
+        of oak trees from top of path to studio in garden.","thumbnail":"https://a1.muscache.com/ac/pictures/64570813/3a2c04a0_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/64570813/3a2c04a0_original.jpg?aki_policy=x_large"},{"id":35159278,"picture":"https://a1.muscache.com/ac/pictures/79985163/49766453_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":20,"caption":"Steps
+        to studio of 1930 Mediterranean style home.","thumbnail":"https://a1.muscache.com/ac/pictures/79985163/49766453_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/79985163/49766453_original.jpg?aki_policy=x_large"},{"id":35159279,"picture":"https://a1.muscache.com/ac/pictures/75737708/7fbc864e_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":21,"caption":"Dine
+        al fresco or just enjoy a delicious beverage at the patio table under the
+        oak tree.","thumbnail":"https://a1.muscache.com/ac/pictures/75737708/7fbc864e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/75737708/7fbc864e_original.jpg?aki_policy=x_large"},{"id":35159280,"picture":"https://a1.muscache.com/ac/pictures/58932565/b3462af4_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":22,"caption":"","thumbnail":"https://a1.muscache.com/ac/pictures/58932565/b3462af4_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/58932565/b3462af4_original.jpg?aki_policy=x_large"},{"id":35159281,"picture":"https://a0.muscache.com/ac/pictures/62975662/4faec704_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":23,"caption":"View
+        looking out from porch & glass balcony to back yard. ","thumbnail":"https://a0.muscache.com/ac/pictures/62975662/4faec704_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/62975662/4faec704_original.jpg?aki_policy=x_large"},{"id":35159282,"picture":"https://a0.muscache.com/ac/pictures/61961855/8d5ff487_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":24,"caption":"Solano
+        Avenue shopping district cafes, restaurants  are  a short walk from the studio.","thumbnail":"https://a0.muscache.com/ac/pictures/61961855/8d5ff487_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/61961855/8d5ff487_original.jpg?aki_policy=x_large"},{"id":35159283,"picture":"https://a0.muscache.com/ac/pictures/62737952/9b8b5155_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":25,"caption":"This
+        cute street minutes away by foot offers gourmet shops, bookstore, movie theater,
+        bus lines, gyms, hair & nail salons, top restaurants (Mexican, Californian,
+        Thai, Japanese, Indian, Greek, Italian, Chinese, traditional American & Persian
+        food).","thumbnail":"https://a0.muscache.com/ac/pictures/62737952/9b8b5155_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/62737952/9b8b5155_original.jpg?aki_policy=x_large"},{"id":35159284,"picture":"https://a1.muscache.com/ac/pictures/62731308/9d157ebb_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":26,"caption":"One
+        stop from Downtown Berkeley by light rail Bay Area Rapid Transit (BART) &
+        2 blocks from San Francisco commuter bus","thumbnail":"https://a1.muscache.com/ac/pictures/62731308/9d157ebb_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a1.muscache.com/im/pictures/62731308/9d157ebb_original.jpg?aki_policy=x_large"},{"id":35159285,"picture":"https://a2.muscache.com/ac/pictures/62737017/7da919f1_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":27,"caption":"World-renowned
+        University of California at Berkeley campus.  An easy 7 minute drive or 12
+        minute bus ride. ","thumbnail":"https://a2.muscache.com/ac/pictures/62737017/7da919f1_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a2.muscache.com/im/pictures/62737017/7da919f1_original.jpg?aki_policy=x_large"},{"id":35159286,"picture":"https://a0.muscache.com/ac/pictures/62732797/1631bca7_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":28,"caption":"Tilden
+        Park: 2079 acres of hiking,  biking trails, golf and Lake just 15 minutes
+        away. ","thumbnail":"https://a0.muscache.com/ac/pictures/62732797/1631bca7_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/62732797/1631bca7_original.jpg?aki_policy=x_large"},{"id":35159287,"picture":"https://a0.muscache.com/ac/pictures/79987843/859ec9c0_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":29,"caption":"Experience
+        East Bay hiking, wine tasting. Plan outings with local guide books and maps.  Or
+        just lounge & stay in.","thumbnail":"https://a0.muscache.com/ac/pictures/79987843/859ec9c0_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a0.muscache.com/im/pictures/79987843/859ec9c0_original.jpg?aki_policy=x_large"},{"id":35159288,"picture":"https://a2.muscache.com/ac/pictures/58942354/59c41fac_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70","sort_order":30,"caption":"We
+        look forward to welcoming you for your visit!","thumbnail":"https://a2.muscache.com/ac/pictures/58942354/59c41fac_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70","xl_picture":"https://a2.muscache.com/im/pictures/58942354/59c41fac_original.jpg?aki_policy=x_large"}],"picture_captions":["Natural
+        light streams through French doors to garden.","Beautiful contemporary furnishings,
+        original artwork & natural jute rug.","Sit & relax with a cup of tea or take-out
+        food from one of the many local restaurants.","Simmons Beautyrest queen bed
+        (see other picture) with comfy, premium bedding, 100% cotton high thread-count
+        sheets, hypoallergenic comforter.  Ample closet space.","Tufted headboard
+        & comfortable queen Simmons Beautyrest bed with 3\"gel pad.","Sink, dishwasher,
+        dishes, glasses, utensils provided.","Granite countertops, birch cabinets,
+        dishwasher, Duralit toaster, microwave, coffeemaker. Double induction portable
+        cooktop available.","Full-sized refrigerator, rich cherry hardwood floors.","Complimentary
+        bottled water, coffee and tea.  toaster & two-burner induction cooktop available.","Curl
+        up with cozy blankets for HDTV viewing (Roku 3 streaming) in bed.","Desk and
+        reading light for your laptop or to write a postcard.","Luxuriate in the gorgeous
+        tiled, glass-enclosed bathtub and full-sized shower.","Contemporary fixtures,
+        tile floor in private bathroom.","Thick, plush 100% cotton spa-quality towels
+        and Toto toilet.","Washer & dryer conveniently available in the house.","Wall-mounted
+        heater with thermostat, flat-screen HDTV with 2000 streaming movie, sports
+        options via Roku 3, original artwork throughout.","Entrance to studio and
+        back garden.","Oaks line gravel pathway to studio entrance.","View of oak
+        trees from top of path to studio in garden.","Steps to studio of 1930 Mediterranean
+        style home.","Dine al fresco or just enjoy a delicious beverage at the patio
+        table under the oak tree.","","View looking out from porch & glass balcony
+        to back yard. ","Solano Avenue shopping district cafes, restaurants  are  a
+        short walk from the studio.","This cute street minutes away by foot offers
+        gourmet shops, bookstore, movie theater, bus lines, gyms, hair & nail salons,
+        top restaurants (Mexican, Californian, Thai, Japanese, Indian, Greek, Italian,
+        Chinese, traditional American & Persian food).","One stop from Downtown Berkeley
+        by light rail Bay Area Rapid Transit (BART) & 2 blocks from San Francisco
+        commuter bus","World-renowned University of California at Berkeley campus.  An
+        easy 7 minute drive or 12 minute bus ride. ","Tilden Park: 2079 acres of hiking,  biking
+        trails, golf and Lake just 15 minutes away. ","Experience East Bay hiking,
+        wine tasting. Plan outings with local guide books and maps.  Or just lounge
+        & stay in.","We look forward to welcoming you for your visit!"],"price_for_extra_person_native":10,"property_type_id":2,"public_address":"Vincente
+        Avenue, Berkeley, CA 94707, United States","require_guest_phone_verification":false,"requires_license":false,"security_deposit_formatted":"$250","security_deposit_native":250,"security_price_native":250,"space":"Prime,
+        pretty lower hills location in Thousand Oaks/Northbrae neighborhood 10 minutes
+        drive from UC Berkeley.  Quiet, residential neighborhood within minutes by
+        foot from Solano Avenue''s great restaurants and shops. Walkability score
+        of 79 (very walkable).  Private separate entrance to back studio from main
+        house.  Garden patio access with beautiful oak trees.  \n\nKitchenette includes
+        full refrigerator, microwave/convection oven, toaster, portable induction
+        2-burner cooktop, sink and dishwasher.  Coffeemaker + Peet''s coffee & tea
+        selection, instant oatmeal. HDTV & 2000 movie, sports streaming options via
+        Roku 3.  Plush spa towels, body wash, shampoo, conditioner, hairdryer. Washer
+        & dryer on site.  Wireless internet.  Easy street parking.\n\nNo pets, so
+        free of animal dander. \n\nLovely, clean, safe, residential area near local
+        commercial street Solano Avenue, a treasure trove of wonderful casual and
+        upscale restaurants (Tapas, Thai, Mediterranean, pizza, Japanese, Indian,
+        Barney''s-a popular burger place, bagels) and Peet''s and Starbucks coffee,
+        wine bar, an upscale grocery store and Safeway, banks, movie theater, gyms,
+        nail & day spas, copying places, post office.\n\nLocal buses to U.C. Berkeley
+        campus (10 minutes by car) and direct San Francisco bus and local buses within
+        a block of house.  In between North Berkeley and El Cerrito Plaza BART (commuter
+        rail) stations about 15 minutes walk to either.  Close to beautiful hilly
+        bicycle routes, hiking on stair pathways and in Tilden Park (golf course,
+        Botanical garden, Lake Anza, Merry-go-Round).  About 30 minute drive (depending
+        on traffic) to San Francisco.\n\nUpcoming  2015 local events/festivals:\n\nGlobal
+        Alliance for Arts & Health October 20-22\nGolden Gate Half Marathon November
+        8\nMen''s Health Urbanathon November 22","square_feet":null,"star_rating":5.0,"summary":"Clean,
+        peaceful, remodeled 340 sq ft studio perfect for two. City amenities in safe,
+        oak-tree setting.  Premium Simmons Beautyrest queen bed. Kitchenette, parking,
+        Wifi, laundry, tea, coffee, garden. 10 minutes to UC Berkeley, walk to cafes,
+        buses.","time_zone_name":"America/Los_Angeles","transit":"There are many local
+        amenities a 5-minute walk away. There is a bus a couple of blocks away to
+        downtown Berkeley & express bus to SF, one a block away to BART.  It is easiest
+        to get around by car if you plan to travel farther afield.  I provide reference
+        maps.  (URL HIDDEN) is a good resource for mapping by local public transit.  (URL
+        HIDDEN) is an alternative to a taxi service that is often less expensive.","weekly_price_factor":0.92,"weekly_price_native":640,"in_building":false,"in_toto_area":false,"recent_review":{"review":{"comments":"Denise
+        was very prompt with her responses and was on hand to welcome us and explain
+        how everything worked. The unit was exactly as described and was very comfortable
+        and more spacious than expected. It was close to Solano Ave which made exploring
+        the many restaurants easy. Would definitely recommend this as a place to stay.
+        ","created_at":"2016-01-07T14:26:19Z","id":59164041,"listing_id":4693285,"reviewee_id":6127976,"reviewer":{"user":{"first_name":"Menaka","has_profile_pic":true,"id":50695130,"picture_url":"https://a2.muscache.com/ac/pictures/53fc21ba-1df4-4950-ad58-a87a878f0a8b.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70","thumbnail_url":"https://a2.muscache.com/ac/pictures/53fc21ba-1df4-4950-ad58-a87a878f0a8b.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=50:*&output-format=jpg&output-quality=70"}},"reviewer_id":50695130,"role":"guest"}},"toto_opt_in":null,"wireless_info":null}}'
+    http_version: 
+  recorded_at: Tue, 12 Jan 2016 19:22:24 GMT
+recorded_with: VCR 3.0.0
