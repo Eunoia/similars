@@ -19,6 +19,7 @@ group :development, :test do
   gem "binding_of_caller"
   gem 'awesome_print'
   gem 'faker'
+  gem 'minitest-rails'
 end
 
 group :development do
@@ -27,7 +28,6 @@ group :development do
 end
 
 group :test do
-  gem 'minitest'
   gem 'vcr'
   gem 'fabrication'
 end
