@@ -24,7 +24,7 @@ module Similars
     config.active_record.raise_in_transactional_callbacks = true
 
     config.generators do |g|
-      g.test_framework      :minitest, spec:true, fixture_replacement: :fabrication
+      g.test_framework      :minitest, fixture_replacement: :fabrication
       g.fixture_replacement :fabrication, dir: "test/fabricators"
     end
   end
