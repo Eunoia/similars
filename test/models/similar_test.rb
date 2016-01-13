@@ -1,7 +1,8 @@
 require "test_helper"
 
-class TestAirbnb < Minitest::Test
+class TestSimilar < Minitest::Test
   def setup
+    DatabaseCleaner.start
     Fabricate(:listing) { id { 3 } }
     Fabricate(:listing) { id { 7 } }
   end
@@ -34,5 +35,9 @@ class TestAirbnb < Minitest::Test
     similar = Similar.new(listing_id: 7, similar_id: 3, rank_raw: 2507)
     assert_equal similar.listing.id, 7
     assert_equal similar.similar.id, 3
+  end
+
+  def teardown
+    DatabaseCleaner.clean
   end
 end

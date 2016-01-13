@@ -1,7 +1,4 @@
 class TestAirbnb < Minitest::Test
-  def setup
-    @meme = Object.new
-  end
 
   def test_that_listing_returns_important_attributes
     VCR.use_cassette('listing') do
